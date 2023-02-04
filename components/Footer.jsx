@@ -61,7 +61,7 @@ const Footer = () => {
                 variants={slideIn('down', 'tween', 2.5, 1)}
                 className=""
               >
-                <h3 className='font-unbounded text-Pomegranate font-normal text-[16px] md:text-[24px] xl:text-[32px]'>Let's Build!</h3>
+                <h3 className='font-unbounded text-Pomegranate font-normal text-[16px] md:text-[24px] xl:text-[32px]'>Let&apos;s Build!</h3>
                 <p className="font-montserrat text-Zorba text-[10px] md:text-[14px] xl:text-[20px] font-medium">info@musecollective.com</p>
               </motion.div>
             </div>
