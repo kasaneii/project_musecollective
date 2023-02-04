@@ -12,7 +12,7 @@ const About = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.marginX} py-12 2xl:max-w-[1280px] 2xl:mx-auto`}>
+      className={`${styles.marginX} py-12 2xl:max-w-[1280px] 2xl:mx-auto overflow-hidden`}>
       <motion.div
         variants={slideIn('up', 'tween', 0.5, 1)} 
         className='bg-Dune rounded-[60px] p-14'>

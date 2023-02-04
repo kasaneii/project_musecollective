@@ -31,7 +31,7 @@ const Hero = () => {
               <motion.div
               variants={fadeIn('right', 'tween', 2.5, 1)} 
               className="w-[50px] h-[50px] xl:w-[80px] xl:h-[80px] 2xl:w-[100px] 2xl:h-[100px]">
-                <img src="/agency.jpg" alt="agency" className='w-full h-full object-cover object-center rounded-full'/>
+                <img src="/agency.jpg" alt="agency" className='w-full h-full object-cover object-center rounded-full' />
               </motion.div>
 
               <motion.div
@@ -42,21 +42,24 @@ const Hero = () => {
               </motion.div>
             </div>
 
-            <motion.p 
-            variants={fadeIn('down', 'tween', 3.5, 1)}
-            className='font-montserrat font-medium text-[8px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] text-Dune w-full md:w-[170px] xl:w-[250px] text-justify'>The Muse Collective is a full-service creative agency located in the heart of the city. 100+ successful projects, expert team. Let us help you stand out in a crowded market and connect with your audience.</motion.p>
+            <div className="w-full md:w-[170px] xl:w-[250px] overflow-hidden">
+              <motion.p 
+              variants={slideIn('down', 'tween', 3.5, 1)}
+              className='font-montserrat font-medium text-[8px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] text-Dune text-justify'>The Muse Collective is a full-service creative agency located in the heart of the city. 100+ successful projects, expert team. Let us help you stand out in a crowded market and connect with your audience.</motion.p>
+            </div>
           </div>
 
-          <motion.div 
-          variants={fadeIn('down', 'tween', 4, 1)}
-          className="flex flex-row md:flex-col items-center justify-center md:justify-start md:items-start md:gap-0 gap-5">
-            <div className='flex pt-2 xl:pt-5'>
-              <h3 className='font-unbounded font-normal text-[40px] xl:text-[72px] text-Dune'>100</h3>
-              <img src="/plus-symbol-button.png" alt="plus icon" className='w-[14px] h-[14px] xl:w-[20px] xl:h-[20px] object-contain mt-4 xl:mt-5'/>
-            </div>
-
-            <p className='font-montserrat font-medium text-[14px] xl:text-[18px] text-Pomegranate'>Project Completed</p>
-          </motion.div>
+          <div className="overflow-hidden">
+            <motion.div 
+            variants={fadeIn('down', 'tween', 4, 1)}
+            className="flex flex-row md:flex-col items-center justify-center md:justify-start md:items-start md:gap-0 gap-5">
+              <div className='flex pt-2 xl:pt-5'>
+                <h3 className='font-unbounded font-normal text-[40px] xl:text-[72px] text-Dune'>100</h3>
+                <img src="/plus-symbol-button.png" alt="plus icon" className='w-[14px] h-[14px] xl:w-[20px] xl:h-[20px] object-contain mt-4 xl:mt-5'/>
+              </div>
+              <p className='font-montserrat font-medium text-[14px] xl:text-[18px] text-Pomegranate'>Project Completed</p>
+            </motion.div>
+          </div>
         </div>
 
         <div className='relative'>
